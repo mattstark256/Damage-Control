@@ -44,12 +44,12 @@ TagManager:
   - name: Ground objects
     uniqueID: 1211027847
     locked: 0
+  - name: No Fly Zones
+    uniqueID: 937059581
+    locked: 0
   - name: Sky objects
     uniqueID: 985530269
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: No Fly Zones
-    uniqueID: 937059581
     locked: 0

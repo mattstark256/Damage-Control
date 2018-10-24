@@ -18,17 +18,25 @@ public class LevelManager : MonoBehaviour {
 
     public void RestartGame()
     {
+        ResetTimeScale();
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
 
     public void Quit()
     {
+        ResetTimeScale();
         Application.Quit();
     }
 
     public void GoToTitleScreen()
     {
+        ResetTimeScale();
         SceneManager.LoadScene(titleScreen);
+    }
+
+    private void ResetTimeScale()
+    {
+        Time.timeScale = 1;
     }
 }

@@ -59,7 +59,9 @@ public class Plane : MonoBehaviour
         Vector3 startPosition = transform.position;
         Vector3 endPosition = airport.transform.position;
         Vector3 startScale = transform.localScale;
-        transform.rotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg* Mathf.Atan((endPosition.y - startPosition.y) / (endPosition.x - startPosition.x)));
+        //transform.rotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg* Mathf.Atan((endPosition.y - startPosition.y) / (endPosition.x - startPosition.x)));
+        //transform.rotation = Quaternion.LookRotation(endPosition - startPosition, Vector3.back);
+        transform.rotation = Quaternion.Euler(0, 0, Vector2.Angle(startPosition, endPosition));
 
         float f = 0;
         while (f < 1)

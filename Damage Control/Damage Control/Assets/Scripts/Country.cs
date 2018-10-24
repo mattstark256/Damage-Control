@@ -51,10 +51,10 @@ public class Country : MonoBehaviour
         friendliness -= amount;
         friendliness = Mathf.Clamp(friendliness, 0, 100);
         countryUI.SetFriendliness(friendliness);
-        Debug.Log(name + "'s relationship with your country has been decreased by " + amount + " to " + friendliness);
+        //Debug.Log(name + "'s relationship with your country has been decreased by " + amount + " to " + friendliness);
         if (friendliness == 0)
         {
-            Debug.Log("They are now hostile!");
+            //Debug.Log("They are now hostile!");
             CreateNoFlyZone();
             PopupManager.instance.ShowPopup(hostilePopup);
         }

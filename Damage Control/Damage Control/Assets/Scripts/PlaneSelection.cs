@@ -16,24 +16,38 @@ public class PlaneSelection : MonoBehaviour
     private Button endTurnButton;
     [SerializeField]
     private SelectedIcon selectedIconPrefab;
+    [SerializeField]
+    private GameObject hoverIcon;
 
     private List<Plane> selectedPlanes = new List<Plane>();
+
+
+    private Text endTurnText;
 
 
     private void Awake()
     {
         gameController = GetComponent<GameController>();
         airportManager = GetComponent<AirportManager>();
+
+        endTurnText = endTurnButton.GetComponentInChildren<Text>();
     }
 
+    private void Start()
+    {
+        HideHoverIcon();
+    }
 
     void Update()
     {
+        HideHoverIcon();
         if (!gameController.TransitionInProgress)
         {
             Plane plane = GetPlaneNearPointer();
             if (plane != null)
             {
+                ShowHoverIcon(plane);
+
                 // TODO add some kind of hover indicator
                 if (Input.GetButtonDown("Fire1"))
                 {
@@ -53,7 +67,7 @@ public class PlaneSelection : MonoBehaviour
 
     public void DeselectAll()
     {
-        while (selectedPlanes.Count>0)
+        while (selectedPlanes.Count > 0)
         {
             DeselectPlane(selectedPlanes[0]);
         }
@@ -100,10 +114,36 @@ public class PlaneSelection : MonoBehaviour
 
     public void UpdateEndTurnButton()
     {
-        endTurnButton.interactable = 
-            selectedPlanes.Count == airportManager.GetAvailableAirportCount() ||
-            selectedPlanes.Count < airportManager.GetAvailableAirportCount() &&
-            selectedPlanes.Count == NumberOfPlanesThatCouldLand();
+        int targetSelectionCount = 0;
+        if (NumberOfPlanesThatCouldLand() > airportManager.GetAvailableAirportCount())
+        {
+            targetSelectionCount = airportManager.GetAvailableAirportCount();
+        }
+        else
+        {
+            targetSelectionCount = NumberOfPlanesThatCouldLand();
+        }
+
+        if (selectedPlanes.Count == targetSelectionCount)
+        {
+            endTurnButton.interactable = true;
+            endTurnText.text = "End turn";
+        }
+        else
+        {
+            endTurnButton.interactable = false;
+            int requiredDelta = targetSelectionCount - selectedPlanes.Count;
+            int absDelta = Mathf.Abs(requiredDelta);
+            if (requiredDelta == 1)
+            { endTurnText.text = "Select 1 more plane"; }
+            else if (requiredDelta == -1)
+            { endTurnText.text = "Deselect 1 plane"; }
+            else if (requiredDelta > 1)
+            { endTurnText.text = "Select " + absDelta + " more planes"; }
+            else
+            { endTurnText.text = "Deselect " + absDelta + " planes"; }
+        }
+
 
         // Debug.Log(NumberOfPlanesThatCouldLand());
         //Debug.Log("available runways: "+gameController.GetAvailableAirportCount());
@@ -112,10 +152,22 @@ public class PlaneSelection : MonoBehaviour
     private int NumberOfPlanesThatCouldLand()
     {
         int i = 0;
-        foreach(Plane plane in gameController.planes)
+        foreach (Plane plane in gameController.planes)
         {
             if (!plane.country.IsHostile) { i++; }
         }
         return i;
+    }
+
+    private void ShowHoverIcon(Plane plane)
+    {
+        hoverIcon.SetActive(true);
+        hoverIcon.transform.position = Camera.main.WorldToScreenPoint(plane.transform.position);
+    }
+
+
+    private void HideHoverIcon()
+    {
+        hoverIcon.SetActive(false);
     }
 }

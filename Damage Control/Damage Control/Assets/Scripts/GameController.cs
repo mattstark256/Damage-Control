@@ -35,6 +35,8 @@ public class GameController : MonoBehaviour
     private int hostileCountriesForGameOver = 1;
     [SerializeField]
     private int turnsForWin;
+    [SerializeField]
+    private Text turnCounter;
 
     [SerializeField]
     private Country[] countries;
@@ -61,6 +63,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        pauseUI.SetActive(false);
     }
 
 
@@ -127,6 +130,7 @@ public class GameController : MonoBehaviour
         planeSelection.UpdateEndTurnButton();
 
         turnNumber++;
+        turnCounter.text = "Turn " + turnNumber + " of " + turnsForWin;
         popupScheduler.ShowPopupsForTurn(turnNumber);
         TransitionInProgress = false;
 
@@ -147,6 +151,7 @@ public class GameController : MonoBehaviour
     private void MakePlaneWait(Plane plane)
     {
         plane.RemainingWaits--;
+        plane.Wait(transitionDuration);
         // do a loop animation
     }
 

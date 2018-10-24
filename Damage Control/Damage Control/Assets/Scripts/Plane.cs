@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Plane : MonoBehaviour
 {
+    private float waitCircleRadius = 80;
+
     [HideInInspector]
     public PlaneSO planeSO;
     [HideInInspector]
@@ -55,12 +57,12 @@ public class Plane : MonoBehaviour
 
     private IEnumerator LandCoroutine(float duration, Airport airport)
     {
+        duration *= 0.7f;
+
         transform.parent = null;
         Vector3 startPosition = transform.position;
         Vector3 endPosition = airport.transform.position;
         Vector3 startScale = transform.localScale;
-        //transform.rotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg* Mathf.Atan((endPosition.y - startPosition.y) / (endPosition.x - startPosition.x)));
-        //transform.rotation = Quaternion.LookRotation(endPosition - startPosition, Vector3.back);
         transform.rotation = Quaternion.Euler(0, 0, Vector2.SignedAngle(Vector2.right, endPosition-startPosition));
 
         float f = 0;
@@ -68,9 +70,10 @@ public class Plane : MonoBehaviour
         {
             f += Time.deltaTime / duration;
             f = Mathf.Clamp01(f);
+            float waveF = Mathf.Cos(f * Mathf.PI / 2);
 
             transform.localPosition = Vector3.Lerp(startPosition, endPosition, f);
-            transform.localScale = Vector3.Lerp(startScale, Vector3.zero, f);
+            transform.localScale = Vector3.Lerp(Vector3.zero, startScale, waveF);
 
             yield return null;
         }
@@ -97,5 +100,33 @@ public class Plane : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void Wait(float duration)
+    {
+        StartCoroutine(WaitCoroutine(duration));
+    }
+
+    // Fly in a little circle
+    private IEnumerator WaitCoroutine(float duration)
+    {
+        Quaternion initialRotation = transform.localRotation;
+        Vector3 initialPosition = transform.localPosition;
+        Vector3 circleCenter = initialPosition + initialRotation * Vector3.up * waitCircleRadius;
+
+        float f = 0;
+        while (f < 1)
+        {
+            f += Time.deltaTime / duration;
+            f = Mathf.Clamp01(f);
+
+            transform.localRotation = initialRotation * Quaternion.Euler(0, 0, f*360);
+            transform.localPosition = circleCenter + initialRotation * Quaternion.Euler(0, 0, f * 360) * Vector3.down * waitCircleRadius;
+
+            yield return null;
+        }
+
+        transform.localRotation = initialRotation;
+        transform.localPosition = initialPosition;
     }
 }

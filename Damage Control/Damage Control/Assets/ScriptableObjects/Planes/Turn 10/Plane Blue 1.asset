@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d960b9aa1083bd74b9d7897c776cc732, type: 3}
   m_Name: Plane Blue 1
   m_EditorClassIdentifier: 
+  flightCode: T007
   countryName: 2
   maxWaits: 2
   significanceValue: 20
-  passengerCount: 100
+  passengerCount: 128
   additionalDetails: 
   isCrucial: 0

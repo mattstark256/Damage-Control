@@ -887,7 +887,7 @@ MonoBehaviour:
   - {fileID: 1765167210}
   - {fileID: 431304511}
   - {fileID: 1753459311}
-  difficultyMultiplier: 1
+  difficultyMultiplier: 1.25
   planes: []
 --- !u!114 &182661546
 MonoBehaviour:

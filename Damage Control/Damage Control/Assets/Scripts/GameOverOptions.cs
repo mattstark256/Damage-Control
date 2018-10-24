@@ -2,15 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameOverOptions : MonoBehaviour {
+public class GameOverOptions : MonoBehaviour
+{
+    [SerializeField]
+    private float secondsBeforeAutomaticRestart = 15;
 
-	public void Restart()
+    private void Start()
+    {
+        StartCoroutine(QuitCountdown());
+    }
+
+    private IEnumerator QuitCountdown()
+    {
+        yield return new WaitForSeconds(secondsBeforeAutomaticRestart);
+        GoToTitleScreen();
+    }
+
+    public void Restart()
     {
         LevelManager.instance.RestartGame();
     }
 
-    public void Quit()
+    public void GoToTitleScreen()
     {
-        LevelManager.instance.Quit();
+        LevelManager.instance.GoToTitleScreen();
     }
 }

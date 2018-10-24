@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 
 // This is used for linking plane ScriptableObjects to countries
-public enum CountryName { KingdomOfFuntz, Azerbania, Transchania, Bulukun, Lateria }
+public enum CountryName { KingdomOfFuntz_Yellow, Azerbania_Red, Transchania_Blue, Bulukun_Pink, Lateria_Green }
 
 
 [RequireComponent(typeof(ArrivingPlanes), typeof(PlaneSelection), typeof(AirportManager))]
 public class GameController : MonoBehaviour
 {
+    public static GameController instance;
+
     private ArrivingPlanes arrivingPlanes;
     private PlaneSelection planeSelection;
     private AirportManager airportManager;
@@ -45,6 +47,8 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
+        if (instance == null) { instance = this; }
+
         arrivingPlanes = GetComponent<ArrivingPlanes>();
         planeSelection = GetComponent<PlaneSelection>();
         airportManager = GetComponent<AirportManager>();
@@ -53,6 +57,11 @@ public class GameController : MonoBehaviour
 
 
     private void Start()
+    {
+    }
+
+
+    public void StartGame()
     {
         StartCoroutine(TransitionToNextTurn());
     }
@@ -106,7 +115,7 @@ public class GameController : MonoBehaviour
         // Wait until all animations are complete
         yield return new WaitForSeconds(transitionDuration);
 
-        // Decrease your relationship with any countries you have rejected planes from
+        // Decrease your relationship with any countries you have rejected planes from THEN check for game over
         foreach (Plane plane in rejectedPlanes) { FaceConsequencesForRejection(plane); }
         CheckForGameOver();
 
@@ -117,11 +126,14 @@ public class GameController : MonoBehaviour
         turnNumber++;
         popupScheduler.ShowPopupsForTurn(turnNumber);
         TransitionInProgress = false;
+
+        Debug.Log("Turn number " + turnNumber);
     }
 
     
     private void MakePlaneLand(Plane plane)
     {
+        plane.waitSlot.isOccupied = false;
         Airport airport = airportManager.GetNearestAirport(plane.transform.position);
         airport.runwayInUse = true;
         plane.Land(transitionDuration, airport);
@@ -138,6 +150,7 @@ public class GameController : MonoBehaviour
 
     private void MakePlaneLeave(Plane plane)
     {
+        plane.waitSlot.isOccupied = false;
         plane.Leave(transitionDuration);
     }
 
@@ -145,10 +158,12 @@ public class GameController : MonoBehaviour
     private void SpawnNewPlanes()
     {
         PlaneSO[] planesToSpawn = arrivingPlanes.GetArrivals(turnNumber);
+        if (planesToSpawn==null) { return; }
         foreach (PlaneSO planeSO in planesToSpawn)
         {
             Country country = GetCountryFromName(planeSO.countryName);
             if (country == null) continue; // This should never happen
+            if (country.IsHostile) continue;
             WaitSlot waitSlot = country.GetAvailableWaitSlot();
             if (waitSlot == null) { Debug.Log("No available waiting slots for plane " + planeSO.name); continue; }
 

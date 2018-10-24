@@ -10,6 +10,7 @@ public class ArrivingPlanes : MonoBehaviour
 
     public PlaneSO[] GetArrivals(int turn)
     {
+        if (turn >= turns.Length) return null;
         return turns[turn].arrivals;
     }
 }

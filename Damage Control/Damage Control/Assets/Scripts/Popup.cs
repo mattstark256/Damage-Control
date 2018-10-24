@@ -14,6 +14,7 @@ public class Popup : MonoBehaviour {
 
     public void ClosePopup()
     {
+        PopupManager.instance.PopupHasBeenClosed();
         Destroy(gameObject);
     }
 }

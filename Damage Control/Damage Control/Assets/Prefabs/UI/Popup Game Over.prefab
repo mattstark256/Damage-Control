@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 114958660198488516}
   - component: {fileID: 114294543499148368}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: To title screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114773549984695192}
-        m_MethodName: Quit
+        m_MethodName: GoToTitleScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -336,7 +336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Exit to title screen
 --- !u!114 &114544486640671286
 MonoBehaviour:
   m_ObjectHideFlags: 1

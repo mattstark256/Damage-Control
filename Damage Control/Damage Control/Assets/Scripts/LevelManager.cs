@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 
     public static LevelManager instance;
+
+    [SerializeField]
+    private string titleScreen;
+
+
     private void Awake()
     {
         if (instance == null) { instance = this; }
@@ -20,5 +25,10 @@ public class LevelManager : MonoBehaviour {
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void GoToTitleScreen()
+    {
+        SceneManager.LoadScene(titleScreen);
     }
 }

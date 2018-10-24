@@ -10,7 +10,7 @@ public class CountryUI : MonoBehaviour {
     [SerializeField]
     private Text nameText;
 
-	public void SetFriendliness(int friendliness)
+	public void SetFriendliness(float friendliness)
     {
         friendlinessMeter.value = friendliness;
     }

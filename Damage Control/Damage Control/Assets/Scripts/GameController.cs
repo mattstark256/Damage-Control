@@ -39,6 +39,9 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private Country[] countries;
 
+    [SerializeField, Tooltip("Used to modify the impact of every rejected plane")]
+    private float difficultyMultiplier = 1;
+
     private int turnNumber = 0;
     [HideInInspector]
     public List<Plane> planes = new List<Plane>();
@@ -196,7 +199,7 @@ public class GameController : MonoBehaviour
 
     private void FaceConsequencesForRejection(Plane plane)
     {
-        plane.country.DecreaseFrendliness(plane.planeSO.significanceValue);
+        plane.country.DecreaseFrendliness(plane.planeSO.significanceValue * difficultyMultiplier);
     }
 
 

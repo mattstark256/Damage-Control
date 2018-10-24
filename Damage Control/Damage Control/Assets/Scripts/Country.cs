@@ -6,7 +6,7 @@ public class Country : MonoBehaviour
 {
     public CountryName countryName;
     [Range(0, 100)]
-    public int friendliness = 100;
+    public float friendliness = 100;
     public Plane planePrefab;
     public CountryUI countryUI;
     public PopupSO hostilePopup;
@@ -45,7 +45,7 @@ public class Country : MonoBehaviour
     }
 
 
-    public void DecreaseFrendliness(int amount)
+    public void DecreaseFrendliness(float amount)
     {
         if (IsHostile) return;
         friendliness -= amount;

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 2
   maxWaits: 1
-  significanceValue: 0
+  significanceValue: 25
   passengerCount: 100
   additionalDetails: 
   isCrucial: 0

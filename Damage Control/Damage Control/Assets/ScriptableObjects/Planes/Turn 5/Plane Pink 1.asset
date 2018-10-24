@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 3
   maxWaits: 2
   significanceValue: 25
-  passengerCount: 100
-  additionalDetails: 
+  passengerCount: 77
+  additionalDetails: High Value Contents Aboard
   isCrucial: 0

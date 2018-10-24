@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 10
   passengerCount: 116
-  additionalDetails: Standard Passenger Plane
+  additionalDetails: 
   isCrucial: 0

@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 3
   maxWaits: 0
   significanceValue: 15
-  passengerCount: 100
-  additionalDetails: 
+  passengerCount: 132
+  additionalDetails: Rerouted Flight
   isCrucial: 0

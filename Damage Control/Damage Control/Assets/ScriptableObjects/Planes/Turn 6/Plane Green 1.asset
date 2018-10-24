@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 4
   maxWaits: 2
   significanceValue: 20
-  passengerCount: 100
-  additionalDetails: 
+  passengerCount: 148
+  additionalDetails: Injured Aboard
   isCrucial: 0

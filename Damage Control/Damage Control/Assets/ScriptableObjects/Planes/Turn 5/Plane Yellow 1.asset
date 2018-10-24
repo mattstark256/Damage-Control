@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 0
   maxWaits: 1
   significanceValue: 25
-  passengerCount: 100
-  additionalDetails: 
+  passengerCount: 228
+  additionalDetails: Transcontinental Flight
   isCrucial: 0

@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 0
   maxWaits: 0
   significanceValue: 40
-  passengerCount: 100
+  passengerCount: 37
   additionalDetails: Carrying diplomat
   isCrucial: 1

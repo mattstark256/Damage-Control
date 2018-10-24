@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 10
   passengerCount: 95
-  additionalDetails: Standard Passenger Plane
+  additionalDetails: Delayed Plane
   isCrucial: 0

@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 3
   maxWaits: 1
   significanceValue: 20
-  passengerCount: 100
-  additionalDetails: 
+  passengerCount: 128
+  additionalDetails: Celebrity Aboard
   isCrucial: 0

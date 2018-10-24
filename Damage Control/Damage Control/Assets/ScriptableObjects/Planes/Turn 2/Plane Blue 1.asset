@@ -14,7 +14,7 @@ MonoBehaviour:
   flightCode: T712
   countryName: 2
   maxWaits: 0
-  significanceValue: 10
-  passengerCount: 100
+  significanceValue: 15
+  passengerCount: 112
   additionalDetails: Detoured Flight
   isCrucial: 0

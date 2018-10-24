@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 4
   maxWaits: 1
   significanceValue: 15
-  passengerCount: 100
+  passengerCount: 112
   additionalDetails: 
   isCrucial: 0

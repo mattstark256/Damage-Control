@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 2
   maxWaits: 0
   significanceValue: 20
-  passengerCount: 100
-  additionalDetails: 
+  passengerCount: 136
+  additionalDetails: Plane Malfunctions
   isCrucial: 0

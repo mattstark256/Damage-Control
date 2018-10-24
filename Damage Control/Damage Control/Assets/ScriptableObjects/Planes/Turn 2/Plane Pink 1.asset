@@ -14,7 +14,7 @@ MonoBehaviour:
   flightCode: B876
   countryName: 3
   maxWaits: 0
-  significanceValue: 10
-  passengerCount: 100
+  significanceValue: 15
+  passengerCount: 99
   additionalDetails: 
   isCrucial: 0

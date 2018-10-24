@@ -15,6 +15,6 @@ MonoBehaviour:
   countryName: 0
   maxWaits: 0
   significanceValue: 10
-  passengerCount: 165
-  additionalDetails: Standard Passenger Plane
+  passengerCount: 178
+  additionalDetails: Full Flight
   isCrucial: 0

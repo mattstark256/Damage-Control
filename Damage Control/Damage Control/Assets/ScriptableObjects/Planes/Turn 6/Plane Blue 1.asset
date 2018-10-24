@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 20
   passengerCount: 32
-  additionalDetails: Private Plane
+  additionalDetails: Private plane
   isCrucial: 0

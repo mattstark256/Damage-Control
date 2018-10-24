@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 0
   significanceValue: 25
   passengerCount: 115
-  additionalDetails: Medical Emergency
+  additionalDetails: Medical emergency
   isCrucial: 0

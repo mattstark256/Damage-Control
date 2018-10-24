@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 0
   significanceValue: 20
   passengerCount: 136
-  additionalDetails: Plane Malfunctions
+  additionalDetails: Plane malfunctions
   isCrucial: 0

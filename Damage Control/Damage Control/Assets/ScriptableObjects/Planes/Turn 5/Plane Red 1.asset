@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 20
   passengerCount: 65
-  additionalDetails: Penal Transport
+  additionalDetails: Penal transport
   isCrucial: 0

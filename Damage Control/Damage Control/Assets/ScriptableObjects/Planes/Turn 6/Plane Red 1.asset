@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 0
   significanceValue: 20
   passengerCount: 68
-  additionalDetails: Mishandled Flight Path
+  additionalDetails: Mishandled flight path
   isCrucial: 0

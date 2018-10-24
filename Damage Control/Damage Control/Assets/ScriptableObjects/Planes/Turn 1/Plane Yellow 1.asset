@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 0
   significanceValue: 10
   passengerCount: 178
-  additionalDetails: Full Flight
+  additionalDetails: Full plane
   isCrucial: 0

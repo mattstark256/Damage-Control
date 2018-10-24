@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 20
   passengerCount: 52
-  additionalDetails: high Value Cargo
+  additionalDetails: High value cargo
   isCrucial: 0

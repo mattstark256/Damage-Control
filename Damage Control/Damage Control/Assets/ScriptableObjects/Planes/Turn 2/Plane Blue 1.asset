@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 0
   significanceValue: 15
   passengerCount: 112
-  additionalDetails: Detoured Flight
+  additionalDetails: Detoured flight
   isCrucial: 0

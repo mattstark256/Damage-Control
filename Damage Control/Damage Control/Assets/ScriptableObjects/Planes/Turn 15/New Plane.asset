@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 0
   significanceValue: 15
   passengerCount: 138
-  additionalDetails: Rerouted Flight
+  additionalDetails: Rerouted flight
   isCrucial: 0

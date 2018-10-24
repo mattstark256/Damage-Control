@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Win Popup
   m_EditorClassIdentifier: 
-  popupText: You managed to maintain some diplomatic relationships. Good work.
+  popupText: It's the end of your shift and you did an adequate job of maintaining
+    diplomatic relationships given the circumstances. Good work.
   popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}

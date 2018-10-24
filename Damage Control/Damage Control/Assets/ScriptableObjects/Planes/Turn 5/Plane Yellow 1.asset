@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 25
   passengerCount: 228
-  additionalDetails: Transcontinental Flight
+  additionalDetails: Transcontinental flight
   isCrucial: 0

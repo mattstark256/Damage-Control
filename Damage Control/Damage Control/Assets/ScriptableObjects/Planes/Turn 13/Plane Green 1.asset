@@ -16,5 +16,5 @@ MonoBehaviour:
   maxWaits: 1
   significanceValue: 20
   passengerCount: 26
-  additionalDetails: Cargo Ship
+  additionalDetails: Cargo ship
   isCrucial: 0

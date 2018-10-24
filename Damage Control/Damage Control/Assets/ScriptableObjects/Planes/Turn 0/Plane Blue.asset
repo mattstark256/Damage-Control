@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 2
   maxWaits: 1
-  significanceValue: 25
-  passengerCount: 100
-  additionalDetails: 
+  significanceValue: 10
+  passengerCount: 82
+  additionalDetails: Standard Passenger Plane
   isCrucial: 0

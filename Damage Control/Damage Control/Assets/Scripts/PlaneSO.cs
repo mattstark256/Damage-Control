@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Plane", menuName = "Plane", order = 1)]
 public class PlaneSO : ScriptableObject
 {
+    public string flightCode;
     public CountryName countryName;
     [Range(0, 3)]
     public int maxWaits = 0;

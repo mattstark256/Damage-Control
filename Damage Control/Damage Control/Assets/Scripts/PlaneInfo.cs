@@ -37,7 +37,7 @@ public class PlaneInfo : MonoBehaviour
     public void ShowInfo(Plane plane)
     {
         string info = "";
-        info += "Flight: " + plane.planeSO.name;
+        info += "Flight: " + plane.planeSO.flightCode;
         info += "\n";
         info += "Passengers: " + plane.planeSO.passengerCount;
         info += "\n";

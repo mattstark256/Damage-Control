@@ -1151,7 +1151,10 @@ MonoBehaviour:
   planeInfoPrefab: {fileID: 114529155574876526, guid: 4477073e8ee7a8045a973d62c8f44665,
     type: 2}
   planeInfoParent: {fileID: 1392403546}
-  gameOverPopup: {fileID: 11400000, guid: 5efa1b70fb311c04bb11aa5e67737de2, type: 2}
+  win1Popup: {fileID: 11400000, guid: c0cfa14c8b6b06447afc0df88773180b, type: 2}
+  win2Popup: {fileID: 11400000, guid: 34e9377a1f6736e42b06f5183957639b, type: 2}
+  win3Popup: {fileID: 11400000, guid: 15e4f744145dae8459feb7d136b3a2bd, type: 2}
+  losePopup: {fileID: 11400000, guid: df6c2f52e64ada94696ac093c7aea76e, type: 2}
   hostileCountriesForGameOver: 3
   turnsForWin: 16
   turnCounter: {fileID: 1901289857}
@@ -1288,7 +1291,7 @@ MonoBehaviour:
   neutralFace: {fileID: 21300000, guid: 7e5feeb257e53ef45b725b8bbfded660, type: 3}
   worriedFace: {fileID: 21300000, guid: eebc811629cf14e4a9378a7185176f3f, type: 3}
   angryFace: {fileID: 21300000, guid: 4d0eab140dfc28849b724e431443fc12, type: 3}
-  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
+  hostileImage: {fileID: 21300000, guid: 6b4a51ef7176a794cb81d08ed84f4fa4, type: 3}
 --- !u!4 &216453232
 Transform:
   m_ObjectHideFlags: 0
@@ -1538,7 +1541,7 @@ MonoBehaviour:
   neutralFace: {fileID: 21300000, guid: fbad2253baa64ec42be79e4618deb73b, type: 3}
   worriedFace: {fileID: 21300000, guid: 572fb42597284f443a2d651e5ff21c4e, type: 3}
   angryFace: {fileID: 21300000, guid: 21105fc6817f1ce4f817ff909ea6592e, type: 3}
-  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
+  hostileImage: {fileID: 21300000, guid: 6b4a51ef7176a794cb81d08ed84f4fa4, type: 3}
 --- !u!4 &431304512
 Transform:
   m_ObjectHideFlags: 0
@@ -3487,7 +3490,7 @@ MonoBehaviour:
   neutralFace: {fileID: 21300000, guid: 6ad50c857a5868b46b9255bec1b2deea, type: 3}
   worriedFace: {fileID: 21300000, guid: 07a706ac975363c40a43397c7572cdc3, type: 3}
   angryFace: {fileID: 21300000, guid: b9de5ad7b0a1b3b4f84ed831b4df32fb, type: 3}
-  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
+  hostileImage: {fileID: 21300000, guid: 6b4a51ef7176a794cb81d08ed84f4fa4, type: 3}
 --- !u!4 &1334893160
 Transform:
   m_ObjectHideFlags: 0
@@ -4063,7 +4066,7 @@ MonoBehaviour:
   neutralFace: {fileID: 21300000, guid: ba9473d32046b9248a82433278cb0d78, type: 3}
   worriedFace: {fileID: 21300000, guid: 9c9e84dba638755419181a8e7c833e57, type: 3}
   angryFace: {fileID: 21300000, guid: 3af644eb49078e541af1fdd3d6890577, type: 3}
-  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
+  hostileImage: {fileID: 21300000, guid: 6b4a51ef7176a794cb81d08ed84f4fa4, type: 3}
 --- !u!4 &1753459312
 Transform:
   m_ObjectHideFlags: 0
@@ -4235,7 +4238,7 @@ MonoBehaviour:
   neutralFace: {fileID: 21300000, guid: 19e011c378344634794194d7e0f4fb88, type: 3}
   worriedFace: {fileID: 21300000, guid: 57f4e9a5b7af732448ac067fb1317fd9, type: 3}
   angryFace: {fileID: 21300000, guid: 8a4790945a38c3746a6428b32ee9321f, type: 3}
-  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
+  hostileImage: {fileID: 21300000, guid: 6b4a51ef7176a794cb81d08ed84f4fa4, type: 3}
 --- !u!4 &1765167211
 Transform:
   m_ObjectHideFlags: 0

@@ -45,13 +45,18 @@ public class CountryUI : MonoBehaviour
 
     private void Update()
     {
-        //if (isFlipping)
-        //{
-        //    Vector3 newScale
-        //    if (Random.value < 0.5f)
-        //    {
-
-        //    }
-        //}
+        if (isFlipping)
+        {
+            Vector3 newScale = new Vector3(1, 1, 0);
+            if (Random.value < 0.5f)
+            {
+                newScale.x = -1;
+            }
+            if (Random.value < 0.5f)
+            {
+                newScale.y = -1;
+            }
+            portrait.rectTransform.localScale = newScale;
+        }
     }
 }

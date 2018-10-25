@@ -74,7 +74,6 @@ GameObject:
   - component: {fileID: 114318295838737764}
   - component: {fileID: 114206270676902278}
   - component: {fileID: 114773549984695192}
-  - component: {fileID: 114873926601435772}
   m_Layer: 5
   m_Name: Popup Game Over
   m_TagString: Untagged
@@ -515,31 +514,6 @@ MonoBehaviour:
   m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Lut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.w
---- !u!114 &114873926601435772
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1524323599398006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16798f4c39bf42a44bf35f3f243cb1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverMessage: {fileID: 0}
-  winMessage1: 'Your quick thinking and careful planning has paid off! This crisis
-    is over and you''ve successfully kept everyone pleased. I''ll be certain to recommend
-    you for a promotion for this excellent display. '
-  winMessage2: 'Our diplomatic corps will have smooth over tensions with the country
-    you ended up alienating, but what''s done is done. All things considered, it could
-    have been worse. '
-  winMessage3: You're a bumbling incompetent! The Secretary General has been breathing
-    down my neck all day! Do you even realise how angry our neighbors are as a result
-    of your actions? Be glad we're letting you keep this job, I almost considered
-    having you shot!!
-  loseMessage: 'It''s clear to me now that a task of this magnitude is well beyond
-    your meagre capabilities. I''ll be assuming operational control as of this point.
-    I don''t want to see your face again, you''re fired! '
 --- !u!114 &114958660198488516
 MonoBehaviour:
   m_ObjectHideFlags: 1

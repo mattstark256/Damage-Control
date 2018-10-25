@@ -67,6 +67,7 @@ public class Country : MonoBehaviour
             CreateNoFlyZone();
             PopupManager.instance.ShowPopup(hostilePopup);
             if (GameController.instance.GetHostileCountryCount() == 1) { PopupManager.instance.ShowPopup(firstHostilePopup); }
+            countryUI.StartFlipping();
         }
     }
 

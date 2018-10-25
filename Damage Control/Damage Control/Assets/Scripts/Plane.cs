@@ -84,7 +84,7 @@ public class Plane : MonoBehaviour
 
     public void Leave(float duration)
     {
-        Debug.Log("plane is leaving " + name);
+        //Debug.Log("plane is leaving " + name);
         StartCoroutine(LeaveCoroutine(duration));
     }
 

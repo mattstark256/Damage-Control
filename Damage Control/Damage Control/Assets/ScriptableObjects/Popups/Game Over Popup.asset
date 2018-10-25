@@ -14,3 +14,8 @@ MonoBehaviour:
   popupText: (This should be overridden by the GameOverText script on the popup)
   popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
+  popupSound: 
+  popupTitle: 
+  popupSpeakerName: 
+  popupSprite: {fileID: 0}
+  titleColor: {r: 1, g: 1, b: 1, a: 1}

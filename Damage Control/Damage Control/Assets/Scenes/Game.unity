@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 1
   friendliness: 40
-  planePrefab: {fileID: 114036159421128290, guid: bdf1531ffb1321b41a55c5903847d18e,
+  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
     type: 2}
   countryUI: {fileID: 343447481}
   hostilePopup: {fileID: 11400000, guid: 412a51ead0b80c140b01e3686160790f, type: 2}
@@ -1513,7 +1513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 2
   friendliness: 80
-  planePrefab: {fileID: 114036159421128290, guid: bdf1531ffb1321b41a55c5903847d18e,
+  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
     type: 2}
   countryUI: {fileID: 536952980}
   hostilePopup: {fileID: 11400000, guid: d23dd25460ffa994a953308015e78cf2, type: 2}
@@ -1925,6 +1925,16 @@ Prefab:
     - target: {fileID: 1145500134067468, guid: 5e55a3dea4f9d5b4594580de6928679e, type: 2}
       propertyPath: m_Name
       value: Country UI Buluk
+      objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e55a3dea4f9d5b4594580de6928679e, type: 2}
@@ -2770,6 +2780,16 @@ Prefab:
       propertyPath: m_Name
       value: Country UI Later
       objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e55a3dea4f9d5b4594580de6928679e, type: 2}
   m_IsPrefabParent: 0
@@ -3395,6 +3415,16 @@ Prefab:
       propertyPath: m_Name
       value: Country UI Trans
       objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e55a3dea4f9d5b4594580de6928679e, type: 2}
   m_IsPrefabParent: 0
@@ -3427,7 +3457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 0
   friendliness: 65
-  planePrefab: {fileID: 114036159421128290, guid: bdf1531ffb1321b41a55c5903847d18e,
+  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
     type: 2}
   countryUI: {fileID: 981599129}
   hostilePopup: {fileID: 11400000, guid: 099248a6a31445e47a3fc6b144a1ace0, type: 2}
@@ -3749,6 +3779,16 @@ Prefab:
       propertyPath: m_Name
       value: Country UI Azerb
       objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e55a3dea4f9d5b4594580de6928679e, type: 2}
   m_IsPrefabParent: 0
@@ -3984,7 +4024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 3
   friendliness: 80
-  planePrefab: {fileID: 114036159421128290, guid: bdf1531ffb1321b41a55c5903847d18e,
+  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
     type: 2}
   countryUI: {fileID: 277852198}
   hostilePopup: {fileID: 11400000, guid: 92ed67a4e2c4fff46b1886a9459dc456, type: 2}
@@ -4110,6 +4150,16 @@ Prefab:
       propertyPath: m_Name
       value: Country UI Funtz
       objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224755597625414730, guid: 5e55a3dea4f9d5b4594580de6928679e,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e55a3dea4f9d5b4594580de6928679e, type: 2}
   m_IsPrefabParent: 0
@@ -4142,7 +4192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 4
   friendliness: 90
-  planePrefab: {fileID: 114036159421128290, guid: bdf1531ffb1321b41a55c5903847d18e,
+  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
     type: 2}
   countryUI: {fileID: 751194279}
   hostilePopup: {fileID: 11400000, guid: fd329643bbcfb2a44a3c8039799b2b10, type: 2}
@@ -4499,9 +4549,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1163924037
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b3a090db2416b6947935fa3196ca7ad2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 082fd052fc7f76945a3aa08e6df6ae91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

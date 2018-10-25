@@ -44,6 +44,9 @@ TagManager:
   - name: Ground objects
     uniqueID: 1211027847
     locked: 0
+  - name: Shadow
+    uniqueID: 4140470527
+    locked: 0
   - name: No Fly Zones
     uniqueID: 937059581
     locked: 0

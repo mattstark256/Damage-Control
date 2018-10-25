@@ -95,7 +95,7 @@ public class GameController : MonoBehaviour
                 MakePlaneLeave(plane);
                 removedPlanes.Add(plane);
             }
-            if (plane.isSelected)
+            else if(plane.isSelected)
             {
                 MakePlaneLand(plane);
                 removedPlanes.Add(plane);
@@ -234,15 +234,7 @@ public class GameController : MonoBehaviour
 
     private void CheckForGameOver()
     {
-        int hostileCountries = 0;
-        foreach(Country country in countries)
-        {
-            if (country == null) { continue; }
-            if (country.IsHostile) { hostileCountries++; }
-        }
-
-
-        if (hostileCountries >= hostileCountriesForGameOver)
+        if (GetHostileCountryCount() >= hostileCountriesForGameOver)
         {
             PopupManager.instance.ShowPopup(losePopup);
         }
@@ -250,5 +242,17 @@ public class GameController : MonoBehaviour
         {
             PopupManager.instance.ShowPopup(winPopup);
         }
+    }
+
+
+    public int GetHostileCountryCount()
+    {
+        int hostileCountries = 0;
+        foreach (Country country in countries)
+        {
+            if (country == null) { continue; }
+            if (country.IsHostile) { hostileCountries++; }
+        }
+        return (hostileCountries);
     }
 }

@@ -135,7 +135,7 @@ MonoBehaviour:
 
     124 passengers
 
-    Can wait 1 turn'
+    Fuel: Can wait 1 turn'
 --- !u!114 &114131256963980464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -363,7 +363,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 20, y: -20}
-  m_SizeDelta: {x: 200, y: 90}
+  m_SizeDelta: {x: 220, y: 90}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224529854589764062
 RectTransform:

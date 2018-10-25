@@ -1075,6 +1075,7 @@ MonoBehaviour:
     type: 2}
   countryUI: {fileID: 864345410}
   hostilePopup: {fileID: 11400000, guid: 412a51ead0b80c140b01e3686160790f, type: 2}
+  firstHostilePopup: {fileID: 11400000, guid: 23ff33612344aca42bfa0a81d538fc0e, type: 2}
   blockableAirports:
   - {fileID: 1560069128}
   noFlyZone: {fileID: 545167886}
@@ -1610,6 +1611,7 @@ MonoBehaviour:
     type: 2}
   countryUI: {fileID: 326512823}
   hostilePopup: {fileID: 11400000, guid: d23dd25460ffa994a953308015e78cf2, type: 2}
+  firstHostilePopup: {fileID: 11400000, guid: 23ff33612344aca42bfa0a81d538fc0e, type: 2}
   blockableAirports:
   - {fileID: 1027715252}
   noFlyZone: {fileID: 525619883}
@@ -3721,6 +3723,7 @@ MonoBehaviour:
     type: 2}
   countryUI: {fileID: 1554726869}
   hostilePopup: {fileID: 11400000, guid: 099248a6a31445e47a3fc6b144a1ace0, type: 2}
+  firstHostilePopup: {fileID: 11400000, guid: 23ff33612344aca42bfa0a81d538fc0e, type: 2}
   blockableAirports:
   - {fileID: 1027715252}
   noFlyZone: {fileID: 1280107833}
@@ -3897,6 +3900,7 @@ MonoBehaviour:
     type: 2}
   countryUI: {fileID: 1009340949}
   hostilePopup: {fileID: 11400000, guid: 92ed67a4e2c4fff46b1886a9459dc456, type: 2}
+  firstHostilePopup: {fileID: 11400000, guid: 23ff33612344aca42bfa0a81d538fc0e, type: 2}
   blockableAirports:
   - {fileID: 1560069128}
   noFlyZone: {fileID: 306345443}
@@ -3950,6 +3954,7 @@ MonoBehaviour:
     type: 2}
   countryUI: {fileID: 624367373}
   hostilePopup: {fileID: 11400000, guid: fd329643bbcfb2a44a3c8039799b2b10, type: 2}
+  firstHostilePopup: {fileID: 11400000, guid: 23ff33612344aca42bfa0a81d538fc0e, type: 2}
   blockableAirports: []
   noFlyZone: {fileID: 208857334}
 --- !u!4 &1765167211

@@ -10,6 +10,7 @@ public class Country : MonoBehaviour
     public Plane planePrefab;
     public CountryUI countryUI;
     public PopupSO hostilePopup;
+    public PopupSO firstHostilePopup;
     public Airport[] blockableAirports;
     public GameObject noFlyZone;
 
@@ -57,6 +58,7 @@ public class Country : MonoBehaviour
             //Debug.Log("They are now hostile!");
             CreateNoFlyZone();
             PopupManager.instance.ShowPopup(hostilePopup);
+            if (GameController.instance.GetHostileCountryCount() == 1) { PopupManager.instance.ShowPopup(firstHostilePopup); }
         }
     }
 

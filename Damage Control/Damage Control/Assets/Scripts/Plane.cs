@@ -77,12 +77,14 @@ public class Plane : MonoBehaviour
 
             yield return null;
         }
+
         Destroy(gameObject);
     }
 
 
     public void Leave(float duration)
     {
+        Debug.Log("plane is leaving " + name);
         StartCoroutine(LeaveCoroutine(duration));
     }
 
@@ -100,7 +102,10 @@ public class Plane : MonoBehaviour
 
             yield return null;
         }
+
+        Destroy(gameObject);
     }
+
 
     public void Wait(float duration)
     {

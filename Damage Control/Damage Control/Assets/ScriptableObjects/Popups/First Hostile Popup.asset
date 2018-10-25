@@ -9,11 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
-  m_Name: Turn 2 Popup
+  m_Name: First Hostile Popup
   m_EditorClassIdentifier: 
-  popupText: There's more planes than airports now! Whichever plane you don't land
-    will have to be denied landing, and this will negatively impact our relationship
-    with its country. Some rejected flights will have more impact than others, such
-    as flights with more passengers.
+  popupText: You've caused a neighboring country to become hostile! If 3 countries
+    become hostile, you're out of the job! Hostile countries have no-fly zones, and
+    you can't land at airports within no-fly zones.
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

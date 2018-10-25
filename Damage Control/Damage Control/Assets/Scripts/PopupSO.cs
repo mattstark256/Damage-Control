@@ -8,4 +8,5 @@ public class PopupSO : ScriptableObject
     [TextArea(5, 20)]
     public string popupText;
     public Popup popupPrefab;
+    public string popupSound;
 }

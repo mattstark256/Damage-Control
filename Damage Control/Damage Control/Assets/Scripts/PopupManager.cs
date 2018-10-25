@@ -48,7 +48,7 @@ public class PopupManager : MonoBehaviour
         Popup newPopup = Instantiate(popupSO.popupPrefab);
         newPopup.transform.SetParent(popupParent, false);
         newPopup.transform.SetAsFirstSibling();
-        newPopup.SetMessage(popupSO.popupText);
+        newPopup.UpdateAppearance(popupSO);
         popupIsOpen = true;
     }
 }

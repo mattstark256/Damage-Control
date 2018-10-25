@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
     private PlaneSelection planeSelection;
     private AirportManager airportManager;
     private PopupScheduler popupScheduler;
+    private MusicManager musicManager;
 
     [SerializeField, Tooltip("The duration between the end of one turn and the start of the next")]
     private float transitionDuration = 1f;
@@ -56,6 +57,7 @@ public class GameController : MonoBehaviour
         planeSelection = GetComponent<PlaneSelection>();
         airportManager = GetComponent<AirportManager>();
         popupScheduler = GetComponent<PopupScheduler>();
+        musicManager = GetComponentInChildren<MusicManager>();
     }
 
 
@@ -131,6 +133,7 @@ public class GameController : MonoBehaviour
         turnCounter.text = "Turn " + turnNumber + " of " + turnsForWin;
         popupScheduler.ShowPopupsForTurn(turnNumber);
         TransitionInProgress = false;
+        musicManager.SwitchMusic(turnNumber);
 
         Debug.Log("Turn number " + turnNumber);
     }

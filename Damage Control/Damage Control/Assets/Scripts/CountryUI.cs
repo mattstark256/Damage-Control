@@ -19,6 +19,8 @@ public class CountryUI : MonoBehaviour
     [SerializeField]
     private Image portrait;
 
+    private bool isFlipping = false;
+
     public void SetFriendliness(float friendliness)
     {
         friendlinessMeter.value = friendliness;
@@ -34,5 +36,22 @@ public class CountryUI : MonoBehaviour
     {
         if (sprite == null) { Debug.Log("a country is missing a face sprite"); return; }
         portrait.sprite = sprite;
+    }
+
+    public void StartFlipping()
+    {
+        isFlipping = true;
+    }
+
+    private void Update()
+    {
+        //if (isFlipping)
+        //{
+        //    Vector3 newScale
+        //    if (Random.value < 0.5f)
+        //    {
+
+        //    }
+        //}
     }
 }

@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Turn 2 Popup
   m_EditorClassIdentifier: 
-  popupText: There's more planes than airports now! Whichever plane you don't land
-    will have to be denied landing, and this will negatively impact our relationship
-    with its country. Some rejected flights will have more impact than others, such
-    as flights with more passengers.
+  popupText: Unfortunately, we canot land all the planes arriving this turn. You must
+    choose which will land and which must be re-routed back to their country of origin.
+    Be careful, rejected planes will complain to their mother country, souring our
+    relations with them.
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}
   popupSound: General Passive

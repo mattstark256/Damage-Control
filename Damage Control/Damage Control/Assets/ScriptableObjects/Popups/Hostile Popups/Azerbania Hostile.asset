@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Azerbania Hostile
   m_EditorClassIdentifier: 
-  popupText: You have rejected our planes so we Azerbanians now hate you.
+  popupText: 'To think that the Republic of Bordoria would presume to insult us in
+    such a brazen manner! We will not forgive your siding Azerbania''s enemies. Retribution
+    will be swift. '
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}
   popupSound: Hostile 1

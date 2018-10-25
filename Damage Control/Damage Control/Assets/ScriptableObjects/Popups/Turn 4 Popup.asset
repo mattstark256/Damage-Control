@@ -11,6 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Turn 4 Popup
   m_EditorClassIdentifier: 
-  popupText: This is the turn 4 popup.
+  popupText: When deciding what order planes should land in, consider what is being
+    carried on the plane, as higher value cargo will cause more trouble for us if
+    it doesn't make it to it's destination.
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

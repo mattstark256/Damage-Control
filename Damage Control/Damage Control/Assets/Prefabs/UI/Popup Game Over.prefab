@@ -457,11 +457,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverMessage: {fileID: 114628199079127206}
-  winMessage1: You made no enemies at all! Impressive work! I will recommend you for
-    a promotion.
-  winMessage2: You only made 1 country hostile! Well done!
-  winMessage3: You only made 2 countries hostile. Your performance was adequate.
-  loseMessage: Everyone hates us now! You're fired!
+  winMessage1: 'Your quick thinking and careful planning has paid off! This crisis
+    is over and you''ve successfully kept everyone pleased. I''ll be certain to recommend
+    you for a promotion for this excellent display. '
+  winMessage2: 'Our diplomatic corps will have smooth over tensions with the country
+    you ended up alienating, but what''s done is done. All things considered, it could
+    have been worse. '
+  winMessage3: You're a bumbling incompetent! The Secretary General has been breathing
+    down my neck all day! Do you even realise how angry our neighbors are as a result
+    of your actions? Be glad we're letting you keep this job, I almost considered
+    having you shot!!
+  loseMessage: 'It''s clear to me now that a task of this magnitude is well beyond
+    your meagre capabilities. I''ll be assuming operational control as of this point.
+    I don''t want to see your face again, you''re fired! '
 --- !u!114 &114958660198488516
 MonoBehaviour:
   m_ObjectHideFlags: 1

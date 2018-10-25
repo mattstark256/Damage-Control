@@ -11,6 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Lateria Hostile
   m_EditorClassIdentifier: 
-  popupText: You have rejected our planes so you are now an enemy of the Laterians.
+  popupText: 'We cannot comprehend what it is you Bordorians could be thinking by
+    seeking to demean the Laterians in such a manner. We have no choice but to retaliate
+    for this warentless prejudice. '
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

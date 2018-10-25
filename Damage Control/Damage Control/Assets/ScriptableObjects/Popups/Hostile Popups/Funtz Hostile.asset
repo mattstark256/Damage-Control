@@ -11,6 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Funtz Hostile
   m_EditorClassIdentifier: 
-  popupText: You have rejected our planes so you are now an enemy of the Funtz.
+  popupText: His austere majesty is most displeased with your favouritisim towards
+    his vile enemies. The Kingdom of Funtz will make certain you regret your decision
+    to side against her!
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

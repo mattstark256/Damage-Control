@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Turn 1 Popup
   m_EditorClassIdentifier: 
-  popupText: Select all the planes then click end turn to land the planes you selected.
+  popupText: Select the planes you wish to have land by left clicking on them. Left
+    click again to de-select them if you change your mind.
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: Turn 5 Popup
   m_EditorClassIdentifier: 
-  popupText: There's an important diplomat on one of the incoming flights. Make sure
-    they land!
+  popupText: 'A dignitary from one of our neighbors is arriving to attempt to defuse
+    the situation. Their plane must land. If it is forced to re-route, we are certain
+    to suffer severe consequences for it. '
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

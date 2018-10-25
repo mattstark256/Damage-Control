@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
   m_Name: First Hostile Popup
   m_EditorClassIdentifier: 
-  popupText: You've caused a neighboring country to become hostile! If 3 countries
-    become hostile, you're out of the job! Hostile countries have no-fly zones, and
-    you can't land at airports within no-fly zones.
+  popupText: Curses! Your bungling of flight priorities has caused one of our neighbors
+    to declare a No-Fly Zone over their territory, possibly affecting our airports.
+    I'll have you replaced if you keep this up!
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

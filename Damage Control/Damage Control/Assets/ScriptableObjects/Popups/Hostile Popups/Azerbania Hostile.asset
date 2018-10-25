@@ -17,7 +17,7 @@ MonoBehaviour:
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}
   popupSound: Hostile 1
-  popupTitle: Azerbania declares war!
+  popupTitle: Azerbania declares No-Fly Zone
   popupSpeakerName: 
   popupSprite: {fileID: 21300000, guid: 4d0eab140dfc28849b724e431443fc12, type: 3}
   titleColor: {r: 1, g: 0, b: 0, a: 1}

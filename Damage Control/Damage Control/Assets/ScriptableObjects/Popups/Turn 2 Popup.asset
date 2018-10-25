@@ -18,3 +18,7 @@ MonoBehaviour:
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}
   popupSound: General Passive
+  popupTitle: Tutorial 2 (Decisions)
+  popupSpeakerName: 
+  popupSprite: {fileID: 0}
+  titleColor: {r: 1, g: 1, b: 1, a: 1}

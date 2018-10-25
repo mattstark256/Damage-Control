@@ -3222,31 +3222,31 @@ MonoBehaviour:
   effectsVolume: 1
   effects:
   - name: General Angry
-    audioClip: {fileID: 8300000, guid: f4593dd805f72cf4e8e614fe65ffb017, type: 3}
+    audioClip: {fileID: 8300000, guid: 24914843ba4703d45ac21387b33727c3, type: 3}
     volume: 1
   - name: General Annoyed
-    audioClip: {fileID: 8300000, guid: 8fcc149b17baee14884fa28bdf25b3dc, type: 3}
+    audioClip: {fileID: 8300000, guid: d810f6f3c7d1cb44e9b28bd52db9a61a, type: 3}
     volume: 1
   - name: General Fired
-    audioClip: {fileID: 8300000, guid: 4913f17cd4e2cc94d82daa0bc6790793, type: 3}
+    audioClip: {fileID: 8300000, guid: fd77751fa8df8a34f853c99137b9b9e6, type: 3}
     volume: 1
   - name: General Passive
-    audioClip: {fileID: 8300000, guid: dfe4ba31e1633e24090b59c0acaf17af, type: 3}
+    audioClip: {fileID: 8300000, guid: 67f5f6d5e4dc4ef408a6c58fe3a7750d, type: 3}
     volume: 1
   - name: Hostile 1
-    audioClip: {fileID: 8300000, guid: dd6ac9b86a3b2f84dace610e88275708, type: 3}
+    audioClip: {fileID: 8300000, guid: aa49aa1d70b876e4aba487add34f5745, type: 3}
     volume: 1
   - name: Hostile 2
-    audioClip: {fileID: 8300000, guid: 99f33a8179821f94faec35fe153838a4, type: 3}
+    audioClip: {fileID: 8300000, guid: 97b13f18f40b16a4e84b48142bb3def9, type: 3}
     volume: 1
   - name: Hostile 3
-    audioClip: {fileID: 8300000, guid: 70b7daaa192137248b75f5d0c687c5ae, type: 3}
+    audioClip: {fileID: 8300000, guid: 66f2dac0c4e1a6c4088d1a62ad1f196b, type: 3}
     volume: 1
   - name: Hostile 4
-    audioClip: {fileID: 8300000, guid: 2411ef8d19dd57f40bba458af087a110, type: 3}
+    audioClip: {fileID: 8300000, guid: 76ade1d615e57a3468b0f67dea7b9cfc, type: 3}
     volume: 1
   - name: Hostile 5
-    audioClip: {fileID: 8300000, guid: 4a3603da808d7524c9015f5a01ed45b8, type: 3}
+    audioClip: {fileID: 8300000, guid: baa1535d4d791874681079a3a71dd460, type: 3}
     volume: 1
 --- !u!114 &1245209659
 MonoBehaviour:
@@ -3260,23 +3260,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnMusic:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 06a1534fadf0c63449f3cd1389d893c6, type: 3}
+  - {fileID: 8300000, guid: d91a8dbbaa56eb44d8936a686a073b74, type: 3}
+  - {fileID: 8300000, guid: d91a8dbbaa56eb44d8936a686a073b74, type: 3}
+  - {fileID: 8300000, guid: d91a8dbbaa56eb44d8936a686a073b74, type: 3}
+  - {fileID: 8300000, guid: 59d25a8ea3388ff4fa748e9854765af7, type: 3}
+  - {fileID: 8300000, guid: 59d25a8ea3388ff4fa748e9854765af7, type: 3}
+  - {fileID: 8300000, guid: 59d25a8ea3388ff4fa748e9854765af7, type: 3}
+  - {fileID: 8300000, guid: 6982385026c07e143ab7ed727dd56f71, type: 3}
+  - {fileID: 8300000, guid: 6982385026c07e143ab7ed727dd56f71, type: 3}
+  - {fileID: 8300000, guid: 6982385026c07e143ab7ed727dd56f71, type: 3}
+  - {fileID: 8300000, guid: 00e87467e95a05d48a116c5aaa676731, type: 3}
+  - {fileID: 8300000, guid: 00e87467e95a05d48a116c5aaa676731, type: 3}
+  - {fileID: 8300000, guid: 00e87467e95a05d48a116c5aaa676731, type: 3}
+  - {fileID: 8300000, guid: 8ae13f44f7519f745856317b45368fdf, type: 3}
+  - {fileID: 8300000, guid: 8ae13f44f7519f745856317b45368fdf, type: 3}
+  - {fileID: 8300000, guid: 8ae13f44f7519f745856317b45368fdf, type: 3}
+  - {fileID: 8300000, guid: 8ae13f44f7519f745856317b45368fdf, type: 3}
 --- !u!1001 &1269495785
 Prefab:
   m_ObjectHideFlags: 0

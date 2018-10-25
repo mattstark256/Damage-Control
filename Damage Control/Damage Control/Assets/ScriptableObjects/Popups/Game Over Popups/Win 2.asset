@@ -17,7 +17,7 @@ MonoBehaviour:
   popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
   popupSound: 
-  popupTitle: Respectable Victory!
+  popupTitle: YOU WON. - 1 No-Fly Zone
   popupSpeakerName: 
   popupSprite: {fileID: 0}
-  titleColor: {r: 1, g: 1, b: 1, a: 1}
+  titleColor: {r: 0.6281407, g: 1, b: 0, a: 1}

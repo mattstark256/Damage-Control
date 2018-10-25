@@ -28,9 +28,7 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private RectTransform planeInfoParent;
     [SerializeField]
-    private PopupSO losePopup;
-    [SerializeField]
-    private PopupSO winPopup;
+    private PopupSO gameOverPopup;
     [SerializeField]
     private int hostileCountriesForGameOver = 1;
     [SerializeField]
@@ -236,11 +234,11 @@ public class GameController : MonoBehaviour
     {
         if (GetHostileCountryCount() >= hostileCountriesForGameOver)
         {
-            PopupManager.instance.ShowPopup(losePopup);
+            PopupManager.instance.ShowPopup(gameOverPopup);
         }
         else if (turnNumber == turnsForWin)
         {
-            PopupManager.instance.ShowPopup(winPopup);
+            PopupManager.instance.ShowPopup(gameOverPopup);
         }
     }
 

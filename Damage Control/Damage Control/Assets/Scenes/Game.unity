@@ -876,8 +876,7 @@ MonoBehaviour:
   planeInfoPrefab: {fileID: 114529155574876526, guid: 4477073e8ee7a8045a973d62c8f44665,
     type: 2}
   planeInfoParent: {fileID: 1392403546}
-  losePopup: {fileID: 11400000, guid: 5efa1b70fb311c04bb11aa5e67737de2, type: 2}
-  winPopup: {fileID: 11400000, guid: 7b6c7ceb352fd064f8ea64892e20e7f7, type: 2}
+  gameOverPopup: {fileID: 11400000, guid: 5efa1b70fb311c04bb11aa5e67737de2, type: 2}
   hostileCountriesForGameOver: 3
   turnsForWin: 16
   turnCounter: {fileID: 1901289857}
@@ -946,6 +945,7 @@ MonoBehaviour:
   turn1Popup: {fileID: 11400000, guid: 4bc85592984c4cf4c889ac8d39cd7c4d, type: 2}
   turn2Popup: {fileID: 11400000, guid: 0799f69842a59df4eab07be79e9aa922, type: 2}
   turn3Popup: {fileID: 11400000, guid: c63a96d62c5da204590ad675c01a4f06, type: 2}
+  turn4Popup: {fileID: 11400000, guid: 2d28abe2e8112c644bc334d982d302fd, type: 2}
   turn5Popup: {fileID: 11400000, guid: 7913bc8cca33fe74395ef79d5d300647, type: 2}
   introPopup: {fileID: 11400000, guid: 52e891bc1a70a8e45a68af9a6b4e23b1, type: 2}
 --- !u!114 &182661550

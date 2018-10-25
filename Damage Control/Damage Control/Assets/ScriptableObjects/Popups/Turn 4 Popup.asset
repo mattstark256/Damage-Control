@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44b82aebdb980154cae9f9363395d8a6, type: 3}
-  m_Name: Lose Popup
+  m_Name: Turn 4 Popup
   m_EditorClassIdentifier: 
-  popupText: Our neighbors hate you, you're fired.
-  popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
+  popupText: This is the turn 4 popup.
+  popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}

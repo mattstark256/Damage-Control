@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 114318295838737764}
   - component: {fileID: 114206270676902278}
   - component: {fileID: 114773549984695192}
+  - component: {fileID: 114873926601435772}
   m_Layer: 5
   m_Name: Popup Game Over
   m_TagString: Untagged
@@ -444,6 +445,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondsBeforeAutomaticRestart: 15
+--- !u!114 &114873926601435772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524323599398006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16798f4c39bf42a44bf35f3f243cb1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverMessage: {fileID: 114628199079127206}
+  winMessage1: You made no enemies at all! Impressive work! I will recommend you for
+    a promotion.
+  winMessage2: You only made 1 country hostile! Well done!
+  winMessage3: You only made 2 countries hostile. Your performance was adequate.
+  loseMessage: Everyone hates us now! You're fired!
 --- !u!114 &114958660198488516
 MonoBehaviour:
   m_ObjectHideFlags: 1

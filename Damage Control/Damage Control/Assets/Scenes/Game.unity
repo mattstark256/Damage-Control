@@ -1284,6 +1284,11 @@ MonoBehaviour:
   blockableAirports:
   - {fileID: 1388828274}
   noFlyZone: {fileID: 147344535}
+  happyFace: {fileID: 21300000, guid: 5b06945d8f875c944beee067d5adfe00, type: 3}
+  neutralFace: {fileID: 21300000, guid: 7e5feeb257e53ef45b725b8bbfded660, type: 3}
+  worriedFace: {fileID: 21300000, guid: eebc811629cf14e4a9378a7185176f3f, type: 3}
+  angryFace: {fileID: 21300000, guid: 4d0eab140dfc28849b724e431443fc12, type: 3}
+  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
 --- !u!4 &216453232
 Transform:
   m_ObjectHideFlags: 0
@@ -1372,11 +1377,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -249
+      value: -261
       objectReference: {fileID: 0}
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -99
+      value: -108
       objectReference: {fileID: 0}
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1405,6 +1410,10 @@ Prefab:
     - target: {fileID: 1083686767537808, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_Name
       value: Airport 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65426198fa093074d8fcd631998ca912, type: 2}
@@ -1440,11 +1449,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1469,6 +1478,10 @@ Prefab:
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65426198fa093074d8fcd631998ca912, type: 2}
@@ -1513,7 +1526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 2
   friendliness: 80
-  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
+  planePrefab: {fileID: 114416502870735858, guid: ff8d047149c80204b8bb4d5b2e94dead,
     type: 2}
   countryUI: {fileID: 536952980}
   hostilePopup: {fileID: 11400000, guid: d23dd25460ffa994a953308015e78cf2, type: 2}
@@ -1521,6 +1534,11 @@ MonoBehaviour:
   blockableAirports:
   - {fileID: 342658870}
   noFlyZone: {fileID: 2039912946}
+  happyFace: {fileID: 21300000, guid: ce62fed60f24bcb46a24160f61e6d9fd, type: 3}
+  neutralFace: {fileID: 21300000, guid: fbad2253baa64ec42be79e4618deb73b, type: 3}
+  worriedFace: {fileID: 21300000, guid: 572fb42597284f443a2d651e5ff21c4e, type: 3}
+  angryFace: {fileID: 21300000, guid: 21105fc6817f1ce4f817ff909ea6592e, type: 3}
+  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
 --- !u!4 &431304512
 Transform:
   m_ObjectHideFlags: 0
@@ -3457,7 +3475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 0
   friendliness: 65
-  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
+  planePrefab: {fileID: 114416502870735858, guid: b8b9a7b137638b849bb76f31ca82ef9c,
     type: 2}
   countryUI: {fileID: 981599129}
   hostilePopup: {fileID: 11400000, guid: 099248a6a31445e47a3fc6b144a1ace0, type: 2}
@@ -3465,6 +3483,11 @@ MonoBehaviour:
   blockableAirports:
   - {fileID: 342658870}
   noFlyZone: {fileID: 1682991009}
+  happyFace: {fileID: 21300000, guid: 1541cef3d4216274b8b8703fd694774c, type: 3}
+  neutralFace: {fileID: 21300000, guid: 6ad50c857a5868b46b9255bec1b2deea, type: 3}
+  worriedFace: {fileID: 21300000, guid: 07a706ac975363c40a43397c7572cdc3, type: 3}
+  angryFace: {fileID: 21300000, guid: b9de5ad7b0a1b3b4f84ed831b4df32fb, type: 3}
+  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
 --- !u!4 &1334893160
 Transform:
   m_ObjectHideFlags: 0
@@ -3597,11 +3620,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 242
+      value: 231
       objectReference: {fileID: 0}
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 109
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3630,6 +3653,10 @@ Prefab:
     - target: {fileID: 1083686767537808, guid: 65426198fa093074d8fcd631998ca912, type: 2}
       propertyPath: m_Name
       value: Airport 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220781450788358, guid: 65426198fa093074d8fcd631998ca912, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65426198fa093074d8fcd631998ca912, type: 2}
@@ -4024,7 +4051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 3
   friendliness: 80
-  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
+  planePrefab: {fileID: 114416502870735858, guid: 7ffca8a9c6fa31745b605ef0570efba3,
     type: 2}
   countryUI: {fileID: 277852198}
   hostilePopup: {fileID: 11400000, guid: 92ed67a4e2c4fff46b1886a9459dc456, type: 2}
@@ -4032,6 +4059,11 @@ MonoBehaviour:
   blockableAirports:
   - {fileID: 1388828274}
   noFlyZone: {fileID: 130390008}
+  happyFace: {fileID: 21300000, guid: 17590b8bd0599a249aac28612eb1031b, type: 3}
+  neutralFace: {fileID: 21300000, guid: ba9473d32046b9248a82433278cb0d78, type: 3}
+  worriedFace: {fileID: 21300000, guid: 9c9e84dba638755419181a8e7c833e57, type: 3}
+  angryFace: {fileID: 21300000, guid: 3af644eb49078e541af1fdd3d6890577, type: 3}
+  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
 --- !u!4 &1753459312
 Transform:
   m_ObjectHideFlags: 0
@@ -4192,13 +4224,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countryName: 4
   friendliness: 90
-  planePrefab: {fileID: 114416502870735858, guid: 8b0e3c06e1c7b1148ada5315ce8d2d7b,
+  planePrefab: {fileID: 114416502870735858, guid: 9ac10aace7ce97d49ba8e652850997be,
     type: 2}
   countryUI: {fileID: 751194279}
   hostilePopup: {fileID: 11400000, guid: fd329643bbcfb2a44a3c8039799b2b10, type: 2}
   firstHostilePopup: {fileID: 11400000, guid: 23ff33612344aca42bfa0a81d538fc0e, type: 2}
   blockableAirports: []
   noFlyZone: {fileID: 158579929}
+  happyFace: {fileID: 21300000, guid: ef05d7b32e3a5524a8beaff128fe274b, type: 3}
+  neutralFace: {fileID: 21300000, guid: 19e011c378344634794194d7e0f4fb88, type: 3}
+  worriedFace: {fileID: 21300000, guid: 57f4e9a5b7af732448ac067fb1317fd9, type: 3}
+  angryFace: {fileID: 21300000, guid: 8a4790945a38c3746a6428b32ee9321f, type: 3}
+  hostileImage: {fileID: 21300000, guid: 332a8f98113674d46b65035fa979bc48, type: 3}
 --- !u!4 &1765167211
 Transform:
   m_ObjectHideFlags: 0

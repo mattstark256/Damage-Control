@@ -14,6 +14,12 @@ public class Country : MonoBehaviour
     public Airport[] blockableAirports;
     public GameObject noFlyZone;
 
+    public Sprite happyFace;
+    public Sprite neutralFace;
+    public Sprite worriedFace;
+    public Sprite angryFace;
+    public Sprite hostileImage;
+
     public bool IsHostile { get { return friendliness == 0; } }
 
     private WaitSlot[] waitSlots;
@@ -28,6 +34,7 @@ public class Country : MonoBehaviour
     private void Start()
     {
         countryUI.SetFriendliness(friendliness);
+        countryUI.SetPortrait(GetRelationshipSprite());
         countryUI.SetName(name);
         noFlyZone.SetActive(false);
     }
@@ -52,6 +59,7 @@ public class Country : MonoBehaviour
         friendliness -= amount;
         friendliness = Mathf.Clamp(friendliness, 0, 100);
         countryUI.SetFriendliness(friendliness);
+        countryUI.SetPortrait(GetRelationshipSprite());
         //Debug.Log(name + "'s relationship with your country has been decreased by " + amount + " to " + friendliness);
         if (friendliness == 0)
         {
@@ -72,5 +80,14 @@ public class Country : MonoBehaviour
             airport.PutInNoFlyZone();
         }
 
+    }
+
+    private Sprite GetRelationshipSprite()
+    {
+        if (friendliness > 75) return happyFace;
+        else if (friendliness > 50) return neutralFace;
+        else if (friendliness > 25) return worriedFace;
+        else if (friendliness > 0) return angryFace;
+        else return hostileImage;
     }
 }

@@ -9,4 +9,8 @@ public class PopupSO : ScriptableObject
     public string popupText;
     public Popup popupPrefab;
     public string popupSound;
+    public string popupTitle;
+    public string popupSpeakerName;
+    public Sprite popupSprite;
+    public Color titleColor = Color.white;
 }

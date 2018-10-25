@@ -198,6 +198,7 @@ MonoBehaviour:
   meterImage: {fileID: 114606914786236378}
   goodHue: 0.35
   badHue: 0
+  portrait: {fileID: 114531544759136714}
 --- !u!114 &114531544759136714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -436,7 +437,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -26.5, y: 28.3}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 125, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224457741792622876
 RectTransform:

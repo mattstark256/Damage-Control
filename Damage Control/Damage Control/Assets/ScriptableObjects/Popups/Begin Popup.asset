@@ -17,8 +17,8 @@ MonoBehaviour:
     to keep the tensions of other countries under control. '
   popupPrefab: {fileID: 114206270676902278, guid: e19fbcd8d25ae3942ae7b21dc9478163,
     type: 2}
-  popupSound: General Passive
+  popupSound: 
   popupTitle: Introduction
-  popupSpeakerName: Colonel Aequalis
-  popupSprite: {fileID: 21300000, guid: dcc85b488001c954e99b8986cffdaa7d, type: 3}
+  popupSpeakerName: 
+  popupSprite: {fileID: 21300000, guid: 700b5a2394a523142b387c036d1e4de3, type: 3}
   titleColor: {r: 1, g: 1, b: 1, a: 1}

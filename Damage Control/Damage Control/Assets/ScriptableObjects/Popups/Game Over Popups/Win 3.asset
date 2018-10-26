@@ -14,7 +14,7 @@ MonoBehaviour:
   popupText: You're a bumbling incompetent! The Secretary General has been breathing
     down my neck all day! Do you even realise how angry our neighbors are as a result
     of your actions? Be glad we're letting you keep this job!
-  popupPrefab: {fileID: 114206270676902278, guid: f101f7a1eddfc864f9beaf728625b977,
+  popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
   popupSound: General Angry
   popupTitle: YOU WON? - 2 No-Fly Zones

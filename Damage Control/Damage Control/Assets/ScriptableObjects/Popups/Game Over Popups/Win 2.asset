@@ -14,7 +14,7 @@ MonoBehaviour:
   popupText: Our diplomatic corps will have smooth over tensions with the country
     you ended up alienating, but what's done is done. All things considered, it could
     have been much worse.
-  popupPrefab: {fileID: 114206270676902278, guid: f101f7a1eddfc864f9beaf728625b977,
+  popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
   popupSound: General Annoyed
   popupTitle: YOU WON. - 1 No-Fly Zone

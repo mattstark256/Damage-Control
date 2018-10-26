@@ -14,7 +14,7 @@ MonoBehaviour:
   popupText: Your quick thinking and careful planning has paid off! This crisis is
     over and you've successfully kept everyone pleased. I'll be certain to recommend
     you for a promotion for this excellent display.
-  popupPrefab: {fileID: 114206270676902278, guid: f101f7a1eddfc864f9beaf728625b977,
+  popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
   popupSound: General Passive
   popupTitle: YOU WON! - Perfect Victory!

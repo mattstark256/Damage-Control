@@ -14,7 +14,7 @@ MonoBehaviour:
   popupText: It's clear to me now that a task of this magnitude is well beyond your
     meagre capabilities. I'll be assuming operational control as of this point. I
     don't want to see your face again, you're fired!
-  popupPrefab: {fileID: 114206270676902278, guid: f101f7a1eddfc864f9beaf728625b977,
+  popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
   popupSound: General Fired
   popupTitle: YOU LOSE! - 3 or more No-Fly Zones

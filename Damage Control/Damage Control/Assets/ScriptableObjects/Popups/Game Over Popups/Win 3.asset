@@ -17,8 +17,8 @@ MonoBehaviour:
     having you shot!!
   popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
-  popupSound: 
+  popupSound: General Annoyed
   popupTitle: YOU WON? - 2 No-Fly Zones
   popupSpeakerName: 
-  popupSprite: {fileID: 0}
+  popupSprite: {fileID: 21300000, guid: 878f90ea78f621849aed829f1a2e0495, type: 3}
   titleColor: {r: 1, g: 0.6154237, b: 0, a: 1}

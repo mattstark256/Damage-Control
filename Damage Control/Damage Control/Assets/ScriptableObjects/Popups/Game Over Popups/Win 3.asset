@@ -13,8 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popupText: You're a bumbling incompetent! The Secretary General has been breathing
     down my neck all day! Do you even realise how angry our neighbors are as a result
-    of your actions? Be glad we're letting you keep this job, I almost considered
-    having you shot!!
+    of your actions? Be glad we're letting you keep this job!
   popupPrefab: {fileID: 114206270676902278, guid: 3e857be41f1e700438e45d66c7d3ce5c,
     type: 2}
   popupSound: General Annoyed

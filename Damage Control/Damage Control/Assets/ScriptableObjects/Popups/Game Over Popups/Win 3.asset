@@ -19,6 +19,6 @@ MonoBehaviour:
     type: 2}
   popupSound: General Annoyed
   popupTitle: YOU WON? - 2 No-Fly Zones
-  popupSpeakerName: 
+  popupSpeakerName: Colonel Aequalis
   popupSprite: {fileID: 21300000, guid: 878f90ea78f621849aed829f1a2e0495, type: 3}
   titleColor: {r: 1, g: 0.6154237, b: 0, a: 1}

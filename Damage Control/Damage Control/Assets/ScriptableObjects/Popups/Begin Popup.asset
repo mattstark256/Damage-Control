@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popupText: 'What you thought would just be another day at work has turned out to
     be far more than you bargained for as an international incident has sparked panic
-    in neighboring countries. Land as many planes from neighboring countries as possible
+    in neighboring countries! Land as many planes from neighboring countries as possible
     to keep the tensions of other countries under control. '
   popupPrefab: {fileID: 114206270676902278, guid: e19fbcd8d25ae3942ae7b21dc9478163,
     type: 2}

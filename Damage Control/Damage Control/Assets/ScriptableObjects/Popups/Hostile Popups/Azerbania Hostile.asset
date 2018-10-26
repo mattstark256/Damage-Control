@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: Azerbania Hostile
   m_EditorClassIdentifier: 
   popupText: 'To think that the Republic of Bordoria would presume to insult us in
-    such a brazen manner! We will not forgive your siding Azerbania''s enemies. Retribution
-    will be swift. '
+    such a brazen manner! We will not forgive your siding with  Azerbania''s enemies.
+    Retribution will be swift. '
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}
   popupSound: Hostile 1

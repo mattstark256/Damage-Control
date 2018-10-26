@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Bulukun Hostile
   m_EditorClassIdentifier: 
   popupText: We used to have such respect for you Bordorians. Yet now you demean the
-    Bulukunians in this time of dire tension? You will regret this!
+    Bulukish in this time of dire tension? You will regret this!
   popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
     type: 2}
   popupSound: Hostile 2

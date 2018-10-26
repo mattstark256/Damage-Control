@@ -1153,7 +1153,7 @@ MonoBehaviour:
   planeInfoParent: {fileID: 1392403546}
   win1Popup: {fileID: 11400000, guid: c0cfa14c8b6b06447afc0df88773180b, type: 2}
   win2Popup: {fileID: 11400000, guid: 34e9377a1f6736e42b06f5183957639b, type: 2}
-  win3Popup: {fileID: 11400000, guid: 15e4f744145dae8459feb7d136b3a2bd, type: 2}
+  win3Popup: {fileID: 11400000, guid: 00b2856ddb2a7df4b8fbbcb247eaf2d5, type: 2}
   losePopup: {fileID: 11400000, guid: df6c2f52e64ada94696ac093c7aea76e, type: 2}
   hostileCountriesForGameOver: 3
   turnsForWin: 16

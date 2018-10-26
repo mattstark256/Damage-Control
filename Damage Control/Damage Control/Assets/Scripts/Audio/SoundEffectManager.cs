@@ -17,11 +17,12 @@ public class SoundEffectManager : MonoBehaviour
     private void Awake()
     {
         if (instance == null) { instance = this; }
+
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     private void Start()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     public void PlayEffect(string effectName)

@@ -14,10 +14,10 @@ MonoBehaviour:
   popupText: 'A dignitary from one of our neighbors is arriving to attempt to defuse
     the situation. Their plane -must- land. If it is forced to re-route, we are certain
     to suffer severe consequences for it! '
-  popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
+  popupPrefab: {fileID: 114206270676902278, guid: f101f7a1eddfc864f9beaf728625b977,
     type: 2}
   popupSound: General Annoyed
   popupTitle: Tutorial 5 (Critical Planes)
   popupSpeakerName: Colonel Aequalis
-  popupSprite: {fileID: 21300000, guid: 878f90ea78f621849aed829f1a2e0495, type: 3}
+  popupSprite: {fileID: 21300000, guid: dcc85b488001c954e99b8986cffdaa7d, type: 3}
   titleColor: {r: 1, g: 1, b: 1, a: 1}

@@ -14,10 +14,10 @@ MonoBehaviour:
   popupText: Curses! Your bungling of flight priorities has caused one of our neighbors
     to declare a No-Fly Zone over their territory, possibly affecting our airports.
     I'll have you replaced if you keep this up!
-  popupPrefab: {fileID: 114206270676902278, guid: 49300b010e05ed045beee4d628db8bcf,
+  popupPrefab: {fileID: 114206270676902278, guid: f101f7a1eddfc864f9beaf728625b977,
     type: 2}
   popupSound: General Angry
   popupTitle: No-Fly Zone Info
   popupSpeakerName: Colonel Aequalis
-  popupSprite: {fileID: 21300000, guid: 878f90ea78f621849aed829f1a2e0495, type: 3}
+  popupSprite: {fileID: 21300000, guid: dcc85b488001c954e99b8986cffdaa7d, type: 3}
   titleColor: {r: 1, g: 0.9094448, b: 0, a: 1}

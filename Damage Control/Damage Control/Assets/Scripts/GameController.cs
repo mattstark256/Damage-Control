@@ -94,6 +94,8 @@ public class GameController : MonoBehaviour
         pauseUI.SetActive(false);
         HidePlaneUI();
 
+        SoundEffectManager.instance.PlayEffect("Jet Engine");
+
         List<Plane> rejectedPlanes = new List<Plane>(); // These planes will have a negative impact on your relationship with the country
         List<Plane> removedPlanes = new List<Plane>(); // This is used because you can't modify a list you are iterating through.
         foreach (Plane plane in planes)

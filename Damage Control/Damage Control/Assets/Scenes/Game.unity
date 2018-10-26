@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c134fbb794557a4b9900abe8f447895, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionDuration: 2
+  transitionDuration: 2.5
   pauseUI: {fileID: 1210404357}
   planeInfoPrefab: {fileID: 114529155574876526, guid: 4477073e8ee7a8045a973d62c8f44665,
     type: 2}
@@ -3249,6 +3249,9 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 76ade1d615e57a3468b0f67dea7b9cfc, type: 3}
     volume: 1
   - name: Hostile 5
+    audioClip: {fileID: 8300000, guid: baa1535d4d791874681079a3a71dd460, type: 3}
+    volume: 1
+  - name: Jet Engine
     audioClip: {fileID: 8300000, guid: baa1535d4d791874681079a3a71dd460, type: 3}
     volume: 1
 --- !u!114 &1245209659
